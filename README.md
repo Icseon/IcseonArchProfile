@@ -10,5 +10,5 @@ cd icseon-arch-installer
 
 2. **Run the installer**
 ```bash
-python archinstalld.py
+python archinstall.py
  ```
