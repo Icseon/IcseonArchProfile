@@ -4,6 +4,6 @@ This repository contains a custom Arch Linux configuration file for archinstall 
 ## Installation Steps
 1. **Retrieve configuration and run ArchInstall**
 ```bash
-curl https://arch.icseon.com -o config.json
+curl https://arch.icseon.com -Lo config.json
 archinstall --config config.json
 ```
