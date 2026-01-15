@@ -1,14 +1,9 @@
-# Icseon's Arch Linux Installer
-This repository contains a custom Arch Linux installer using archinstall with a pre-configured GNOME desktop, NVIDIA support, networking, audio, and essential applications. 
+# Icseon's Arch Linux Profile
+This repository contains a custom Arch Linux configuration file for archinstall with a pre-configured GNOME desktop, NVIDIA support, networking, audio, and essential applications. 
 
 ## Installation Steps
-1. **Clone the repository**
+1. **Retrieve configuration and run ArchInstall**
 ```bash
-git clone https://github.com/icseon/icseon-arch-installer.git
-cd icseon-arch-installer
+curl https://arch.icseon.com -o config.json
+archinstall --config config.json
 ```
-
-2. **Run the installer**
-```bash
-python archinstall.py
- ```
