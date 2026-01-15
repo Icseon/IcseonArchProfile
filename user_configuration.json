@@ -1,0 +1,70 @@
+{
+    "app_config": null,
+    "archinstall-language": "English",
+    "auth_config": {},
+    "bootloader_config": {
+        "bootloader": "Grub",
+        "removable": true,
+        "uki": false
+    },
+    "custom_commands": [],
+    "hostname": "icseon-pc",
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US.UTF-8"
+    },
+    "ntp": true,
+    "packages": [
+        "base",
+        "base-devel",
+        "linux",
+        "linux-firmware",
+        "sudo",
+        "git",
+        "nvidia-utils",
+        "lib32-nvidia-utils",
+        "nvidia",
+        "nvidia-settings",
+        "gnome",
+        "gdm",
+        "pipewire",
+        "pipewire-alsa",
+        "pipewire-pulse",
+        "wireplumber",
+        "noto-fonts",
+        "noto-fonts-cjk",
+        "noto-fonts-emoji",
+        "networkmanager",
+        "bluez",
+        "bluez-utils",
+        "micro",
+        "nano",
+        "chromium",
+        "firefox",
+        "wine",
+        "openssh",
+        "ntfs-3g"
+    ],
+    "parallel_downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {}
+    },
+    "script": null,
+    "services": [
+        "NetworkManager",
+        "gdm",
+        "bluetooth"
+    ],
+    "swap": {
+        "algorithm": "zstd",
+        "enabled": true
+    },
+    "timezone": "Europe/Amsterdam",
+    "version": "3.0.15"
+}
